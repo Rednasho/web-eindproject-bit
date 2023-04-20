@@ -1,0 +1,56 @@
+[
+    {
+        "id": 0,
+        "brand": "Dodge",
+        "type": "Charger R/T",
+        "year": 1968,
+        "hp": 230,
+        "image": "./imgs/dodgecharger.png",
+        "price": 120000
+    },
+    {
+        "id": 1,
+        "brand": "Ford",
+        "type": "Mustang",
+        "year": 1967,
+        "hp": 320,
+        "image": "./imgs/fordmustang.png",
+        "price": 85000
+    },
+    {
+        "id": 2,
+        "brand": "Chevrolet",
+        "type": "Camaro SS",
+        "year": 1969,
+        "hp": 375,
+        "image": "./imgs/chevroletcamaro.png",
+        "price": 100000
+    },
+    {
+        "id": 3,
+        "brand": "Dodge",
+        "type": "Challenger",
+        "year": 1970,
+        "hp": 425,
+        "image": "./imgs/dodgechallanger.png",
+        "price": 120000
+    },
+    {
+        "id": 4,
+        "brand": "Pontiac",
+        "type": "GTO",
+        "year": 1969,
+        "hp": 370,
+        "image": "./imgs/pontiacgto.png",
+        "price": 150000
+    },
+    {
+        "id": 5,
+        "brand": "Plymouth",
+        "type": "Road Runner",
+        "year": 1970,
+        "hp": 390,
+        "image": "./imgs/plymouthrunner.png",
+        "price": 200000
+    }
+]

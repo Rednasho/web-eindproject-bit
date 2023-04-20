@@ -1,0 +1,67 @@
+.productform {
+  min-height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.productform .error {
+  position: relative;
+  top: 100px;
+}
+
+.productform form {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 300px;
+  width: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.productform form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.productform form div input {
+  height: 30px;
+  width: 100%;
+}
+
+.productform form div input[type='submit'] {
+  margin-top: 10px;
+  width: 100px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: medium;
+  background-color: #8d8d8d;
+}
+/*# sourceMappingURL=productform.css.map */

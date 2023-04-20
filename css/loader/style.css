@@ -1,0 +1,32 @@
+@import url("../header/header.css");
+@import url("../hero/hero.css");
+@import url("../product-list/product-list.css");
+@import url("../about/about.css");
+@import url("../footer/footer.css");
+@import url("../product-view/product-view.css");
+@import url("../cartmodal/cartmodal.css");
+@import url("../shop-data/shop-data.css");
+@import url("../productform/productform.css");
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #000000;
+  height: 100vh;
+  font-family: 'Century Gothic';
+}
+
+.admin {
+  background: black;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(30%, #2a2a2a), color-stop(69%, #2f2f2f), to(black));
+  background: linear-gradient(180deg, black 0%, #2a2a2a 30%, #2f2f2f 69%, black 100%);
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+}
+/*# sourceMappingURL=style.css.map */

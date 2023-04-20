@@ -1,0 +1,90 @@
+.cartmodal {
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #242222da;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+.cartmodal .modalcard {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 400px;
+  width: 500px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.cartmodal .modalcard table {
+  width: 100%;
+  margin-bottom: 100px;
+  border-collapse: collapse;
+}
+
+.cartmodal .modalcard table tr:not(.grandtotal) {
+  border-bottom: 1px solid #000000;
+}
+
+.cartmodal .modalcard table tr:not(.grandtotal) th, .cartmodal .modalcard table tr:not(.grandtotal) td {
+  text-align: start;
+}
+
+.cartmodal .modalcard #closemodal {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+.cartmodal .modalcard #checkout {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: #2a2a2a;
+  color: #ffffff;
+  font-size: 12pt;
+  letter-spacing: 2px;
+}
+
+.cartmodal .modalcard #clearcart {
+  position: absolute;
+  bottom: 10px;
+  font-size: 1em;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.cartmodal .modalcard #clearcart i {
+  padding-left: 3px;
+}
+
+@media (max-width: 900px) {
+  .cartmodal .modalcard {
+    width: 300px;
+    height: 500px;
+  }
+  .cartmodal .modalcard #checkout {
+    width: 100px;
+  }
+}
+/*# sourceMappingURL=cartmodal.css.map */

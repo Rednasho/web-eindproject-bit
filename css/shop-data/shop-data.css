@@ -1,0 +1,95 @@
+.shop-data {
+  min-height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.shop-data .button-bar {
+  height: 50px;
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.shop-data .button-bar button, .shop-data .button-bar a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ffffff;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  background: 0;
+  border: 0;
+  border-radius: 50%;
+  background-color: #00a778;
+  font-size: 30pt;
+}
+
+.shop-data .button-bar #resetproducts {
+  color: #000000;
+  font-size: 12pt;
+  width: 150px;
+  border-radius: 3px;
+  background-color: #9d9d9d;
+}
+
+.shop-data table {
+  color: #ffffff;
+  height: 50%;
+  width: 75%;
+  border-collapse: collapse;
+  margin-bottom: 50px;
+}
+
+.shop-data table td, .shop-data table th {
+  border-bottom: 2px solid #ffffff;
+  padding: 20px 50px 20px 10px;
+  text-align: start;
+}
+
+.shop-data table td button, .shop-data table td a, .shop-data table th button, .shop-data table th a {
+  color: #ffffff;
+  background: 0;
+  border: 0;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.shop-data table td a, .shop-data table th a {
+  color: #fcf944;
+}
+
+.shop-data table td #removeproduct, .shop-data table th #removeproduct {
+  color: #f35353;
+}
+
+@media (max-width: 900px) {
+  .shop-data table td, .shop-data table th {
+    padding: 10px 10px 10px 2px;
+    font-size: 7pt;
+  }
+}
+/*# sourceMappingURL=shop-data.css.map */

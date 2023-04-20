@@ -1,0 +1,77 @@
+.cartmodal {
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #242222da;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    .modalcard {
+        padding: 30px;
+        display: flex;
+        min-height: 400px;
+        width: 500px;
+        background-color: #ffffff;
+        position: relative;
+        table {
+            width: 100%;
+            margin-bottom: 100px;
+            border-collapse: collapse;
+            tr:not(.grandtotal){
+                border-bottom: 1px solid #000000;
+                th, td {
+                    text-align: start;
+                }
+            }
+        }
+        #closemodal {
+            position: absolute;
+            right: 5px;
+            top: 5px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1.5em;
+        }
+        #checkout {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 200px;
+            height: 50px;
+            cursor: pointer;
+            border: 0;
+            background-color: #2a2a2a;
+            color: #ffffff;
+            font-size: 12pt;
+            letter-spacing: 2px;
+        }
+        #clearcart {
+            position: absolute;
+            bottom: 10px;
+            font-size: 1em;
+            background: none;
+            border: 0;
+            cursor: pointer;
+            i {
+                padding-left: 3px;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .cartmodal {
+        .modalcard {
+            width: 300px;
+            height: 500px;
+            #checkout {
+                width: 100px;
+            }
+        }
+    }
+}

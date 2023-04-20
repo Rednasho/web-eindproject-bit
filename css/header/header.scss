@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: center;
+    line-height: 75px;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        ul {
+            display: flex;
+            li {
+                padding: 0 10px;
+                list-style: none;
+                font-size: larger;
+                font-style: italic;
+                button {
+                    font-style: italic;
+                    background: none;
+                    color: #ffffff;
+                    border: 0;
+                    font-size: 1em;
+                    cursor: pointer;
+                }
+                .active {
+                    border: 1px solid #ffffff;
+                    border-radius: 5px;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+}

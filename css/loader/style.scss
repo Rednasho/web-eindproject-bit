@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+}
+
+@import url('../header/header.css');
+@import url('../hero/hero.css');
+@import url('../product-list/product-list.css');
+@import url('../about/about.css');
+@import url('../footer/footer.css');
+@import url('../product-view/product-view.css');
+@import url('../cartmodal/cartmodal.css');
+@import url('../shop-data/shop-data.css');
+@import url('../productform/productform.css');
+
+
+
+body {
+    background-color: #000000;
+    height: 100vh;
+    font-family: 'Century Gothic';
+}
+
+.admin {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(42,42,42,1) 30%, rgba(47,47,47,1) 69%, rgba(0,0,0,1) 100%);
+}
+
+.container {
+    display: flex;
+    width: 90%;
+}
